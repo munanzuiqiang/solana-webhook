@@ -1,17 +1,10 @@
 {
-  "name": "solana-webhook",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "dotenv": "^16.5.0",
-    "express": "^5.1.0",
-    "nodemailer": "^7.0.3"
+    "express": "^4.21.2",
+    "nodemailer": "^6.10.1"
+  },
+  "scripts": {
+    "start": "node server.js"
   }
 }
